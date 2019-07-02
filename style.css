@@ -22,3 +22,24 @@ header {
     background-size: cover;
     height: 400px;   
 }
+
+section {
+    background-color: #eaf6f4;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    justify-content: space-evenly;
+}
+div{
+    text-align: center;
+    width: 40%;
+}
+
+div ul{
+    list-style-image: url("images/ninja.png");
+}
+
+
+ul li:nth-child(odd) {
+    color: seagreen;
+}
+
