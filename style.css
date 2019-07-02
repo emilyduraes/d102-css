@@ -1,4 +1,5 @@
 body{
+    background-color: #eaf6f4;
     margin: 0;
 }
 nav{
@@ -24,12 +25,11 @@ header {
 }
 
 section {
-    background-color: #eaf6f4;
     display: flex;
     font-family: 'PT Sans Narrow', sans-serif;
     justify-content: space-evenly;
 }
-div{
+section div{
     text-align: center;
     width: 40%;
 }
@@ -43,3 +43,32 @@ ul li:nth-child(odd) {
     color: seagreen;
 }
 
+footer{
+    background-color: #e98251;
+}
+
+input::placeholder{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+footer div{
+    align-items: center;
+    display: flex;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    justify-content: center;
+}
+
+footer h3{
+    margin-right: 20px;
+}
+
+footer input{
+    margin-right: 15px;
+}
+
+footer a img{
+    height: 5vh;
+    width: 5vh;
+    margin-left: 10px;
+}
