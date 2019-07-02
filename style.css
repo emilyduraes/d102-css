@@ -16,3 +16,9 @@ nav a{
     text-decoration: none;
 
 }
+
+header {
+    background-image: url("images/1169369_orig.jpg");
+    background-size: cover;
+    height: 400px;   
+}
